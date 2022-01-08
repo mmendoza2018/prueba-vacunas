@@ -1,1 +1,29 @@
 /* para que tome el cambio */
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Teko", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login {
+  box-shadow: 0 8px 16px 0 rgba(112, 43, 43, 0.5);
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  background-color: rgb(226, 81, 81);
+}
+.login__logo {
+  position: absolute;
+  left: 40%;
+  top: 0;
+}
