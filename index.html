@@ -14,27 +14,31 @@
     <title>Document</title>
   </head>
   <body>
+    <img class="background-body" src="/assets/images/bg-login.jpg" alt="" />
     <div class="login">
       <div class="login__logo">
         <img src="assets/images/logo.svg" alt="" />
       </div>
 
       <h1 class="login__tittle">Sign in</h1>
-      <form action="">
-        <input
-          type="text"
-          name=""
-          id=""
-          class="login__username"
-          placeholder="usuario"
-        />
-        <input
-          type="password"
-          name=""
-          id=""
-          class="login__password"
-          placeholder="password"
-        />
+      <!--Formulario-->
+
+      <form action="" class="login__form">
+        <div class="login__form__user">
+          <img src="assets/images/candado.svg" alt="" />
+          <input type="text" name="" id="input_user" placeholder="usuario" />
+        </div>
+        <div class="login__form__pass">
+          <img src="assets/images/user.svg" alt="" />
+          <input
+            type="password"
+            name=""
+            id="input_pass"
+            class="login__password"
+            placeholder="password"
+          />
+        </div>
+
         <input type="submit" value="Login" class="login__guardar" />
       </form>
     </div>
