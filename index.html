@@ -23,16 +23,21 @@
       <h1 class="login__tittle">Sign in</h1>
       <!--Formulario-->
 
-      <form action="" class="login__form">
+      <form class="login__form" id="formLogin">
         <div class="login__form__user">
           <img src="assets/images/candado.svg" alt="" />
-          <input type="text" name="" id="input_user" placeholder="usuario" />
+          <input
+            type="text"
+            name="user"
+            id="input_user"
+            placeholder="usuario"
+          />
         </div>
         <div class="login__form__pass">
           <img src="assets/images/user.svg" alt="" />
           <input
             type="password"
-            name=""
+            name="password"
             id="input_pass"
             class="login__password"
             placeholder="password"
@@ -42,5 +47,6 @@
         <input type="submit" value="Login" class="login__guardar" />
       </form>
     </div>
+    <script src="assets/js/login.js"></script>
   </body>
 </html>
