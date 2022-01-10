@@ -10,8 +10,8 @@ const validarDatos = (e) => {
   .then(texto => {
     console.log(texto)
   })
-
 };
+
 //validarDatos();
 
 document.addEventListener("submit", (event) => {
